@@ -1,0 +1,67 @@
+<!-- SWITCHER --->
+	<ul class="uk-subnav uk-subnav-pill uk-padding-small" uk-switcher="connect: .switcher-container">
+		<li class="uk-width-1-2"><a href="#"><span uk-icon="comment"></span> Active Icon</a></li>
+		<li class="uk-width-1-2"><a href="#"><span uk-icon="cloud-upload"></span> Icon</a></li>
+	</ul>
+
+	<ul class="uk-switcher switcher-container uk-margin uk-padding">
+
+		<!--- 1 ---->
+		<li>
+			<div class="uk-background-secondary uk-padding-small uk-light uk-panel">
+				<div>
+					<form action="#" method="post">
+						<fieldset class="uk-fieldset">
+
+				        <legend class="uk-legend">Crear publicación</legend>
+
+				        <div class="uk-margin">
+				          <input class="uk-input" type="text" placeholder="Título">
+				        </div>
+
+				        <div class="uk-margin">
+				          <textarea class="uk-textarea" rows="5" placeholder="Contenido"></textarea>
+				        </div>
+
+				        <button class="uk-button uk-button-default">Submit</button>
+			    		</div>
+
+		    			</fieldset>
+					</form>
+				</div>
+			</div>
+		</li>
+
+		<!--- 2 --->
+		<li>
+			<div class="uk-background-secondary uk-padding-small uk-light uk-panel">
+				<div>
+					<form action="#" method="post">
+						<fieldset class="uk-fieldset">
+
+		        <legend class="uk-legend">Crear noticia</legend>
+
+		        <div class="uk-margin">
+		            <input class="uk-input" type="text" placeholder="Título">
+		        </div>
+
+		        <div class="uk-margin">
+		            <textarea class="uk-textarea" rows="5" placeholder="Contenido"></textarea>
+		        </div>
+
+		        <div class="uk-margin" uk-margin>
+			        <div uk-form-custom="target: true">
+			            <input type="file">
+			            <input class="uk-input uk-form-width-medium" type="text" placeholder="Seleccionar archivo" disabled>
+			        </div>
+
+			        <button class="uk-button uk-button-default">Submit</button>
+		    		</div>
+
+		    		</fieldset>
+					</form>
+				</div>
+			</div>
+		</li>
+	</ul>
+	<!--- END SWITCHER ---->
